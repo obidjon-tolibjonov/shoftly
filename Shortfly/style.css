@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1108px;
+  padding: 0;
+}
+.div1 {
+  display: flex;
+}
+.div2 {
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.all-content {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.button2 {
+  border: none;
+  background-color: #2bd0d0;
+  border-radius: 30px;
+  width: 80px;
+  height: 40px;
+  color: white;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.nav-text {
+  color: rgba(158, 154, 168, 1);
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 22.5px;
+  text-align: left;
+}
+
+.button1 {
+  color: rgba(158, 154, 168, 1);
+
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 22.5px;
+  text-align: left;
+  margin-right: 20px;
+  background: transparent;
+  border: none;
+}
+
+.all-content {
+  margin-top: 48px;
+}
+
+.Get {
+  border: none;
+  background-color: #2bd0d0;
+  border-radius: 30px;
+  width: 197px;
+  height: 56px;
+  color: white;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.wrapper-img {
+  background-image: url(hero-bg.svg);
+  width: 600px;
+  height: 450px;
+  background-repeat: no-repeat;
+}
+
+.main-wrapper {
+  justify-content: space-between;
+  margin-top: 78px;
+  align-items: center;
+  display: flex;
+}
+
+.wrapper {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-item {
+  font-family: Poppins;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 90px;
+  letter-spacing: -2px;
+  text-align: left;
+}
+
+.main-text {
+  font-family: Poppins;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0.15000000596046448px;
+  text-align: left;
+  color: rgba(158, 154, 168, 1);
+}
